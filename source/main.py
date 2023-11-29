@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from scipy.spatial import distance
 
 # Load dataset
-url = "../datasets/iris.data.csv"
+url = "./datasets/iris.data.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = read_csv(url, names=names)
 
